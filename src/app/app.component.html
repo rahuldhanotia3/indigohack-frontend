@@ -7,7 +7,27 @@
   <title>Flight Booking At Low-Cost</title>
 </head>
 <body>
-  
+  <div style="padding: 5px;">
+    <label style="padding: 2px;">OneWay</label><input type="radio" name="trip" value="oneway">
+    <label style="padding: 2px;">Multi - City</label><input type="radio" name="trip" value="multicity"><br>
+    <label style="padding: 2px;">Round Trip</label><input type="radio" name="trip" value="roundtrip">
+ 
+    <label style="padding: 2px;">From City</label><input type="text">
+    <label style="padding: 2px;">To City</label><input type="text">
+    <label style="padding: 2px;">Departure Date</label><input type="datetime"><br>
+ 
+    <input style="padding: 2px;" type="text" placeholder="Add Round Trip">
+    <label style="padding: 2px;">Passengers&Extra Seat</label><input type="number">
+    <label style="padding: 2px;">Pay In Currency</label><input type="text"> <br>
+ 
+    <label style="padding: 2px;">Armed Forces </label><input type="radio">
+    <label style="padding: 2px;">Vaccinated</label><input type="radio">
+    <label style="padding: 2px;">Family&Friends</label><input type="radio">
+    <label style="padding: 2px;">Students</label><input type="radio">
+    <label style="padding: 2px;">Doctors&Nurses</label><input type="radio">
+    <label style="padding: 2px;">UnAcompaniedMinor</label><input type="radio">
+    <button>Submit</button>
+  </div>
 </body>
 </html>
 <router-outlet></router-outlet>
